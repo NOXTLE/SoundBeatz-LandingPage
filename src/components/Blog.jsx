@@ -3,11 +3,11 @@ import { UpdateFollower } from "react-mouse-follower";
 import { motion } from "framer-motion";
 const Blog = () => {
   const animateUp = (delay) => ({
-    hidden: { y: 100, opacity: 0 },
+    hidden: { y: 50, opacity: 0 },
     show: {
       y: 0,
       opacity: 1,
-      transition: { duration: 1, delay, ease: "easeInOut" },
+      transition: { duration: 0.8, delay, ease: "easeInOut" },
     },
   });
 
