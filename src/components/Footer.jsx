@@ -101,11 +101,12 @@ const Footer = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: false }}
-          className="container gap-2 flex items-center justify-center mt-2"
+          className="container gap-2 flex-col flex items-center justify-center mt-2"
         >
-          <div className="h-[1px] w-100 bg-white"></div>
-          <h1>© 2025. All Rights Reserved || Aditya Sharan</h1>
-          <div className="h-[1px] w-100 bg-white"></div>
+          <div className="h-[1px] mt-5 w-100 md:w-300 bg-white"></div>
+          <h1 className="text-sm ">
+            © 2025. All Rights Reserved || Aditya Sharan
+          </h1>
         </motion.div>
       </footer>
     </>
